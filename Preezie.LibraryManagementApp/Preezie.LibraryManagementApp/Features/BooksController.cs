@@ -44,7 +44,7 @@ public class BooksController : ControllerBase
     }
 
     [HttpPatch("{id}/borrow")]
-    public async Task<ActionResult<Book?>> BorrowBook(int id)
+    public async Task<IActionResult> BorrowBook(int id)
     {
         var result = await _library.BorrowBook(id);
 
@@ -62,12 +62,20 @@ public class BooksController : ControllerBase
     }
 
     [HttpPatch("{id}/return")]
-    public IActionResult ReturnBook(int id)
+    public async Task<IActionResult> ReturnBook(int id)
     {
-        if (_library.ReturnBook(id))
+        var result = await _library.ReturnBookAsync(id);
+
+        if (result.IsSuccess)
         {
             return NoContent();
         }
-        return NotFound();
+
+        var errorResponse = new
+        {
+            result.ErrorMessage,
+        };
+
+        return BadRequest(errorResponse);
     }
 }

@@ -92,15 +92,31 @@ public class Library
         return Result<Book>.Success(book);
     }
 
-    public bool ReturnBook(int bookId)
+    public async Task<Result<Book>> ReturnBookAsync(int bookId)
     {
         var book = _db.Set<Book>().Find(bookId);
-        if (book != null && book.IsBorrowed)
+        if (book == null)
+        {
+            return Result<Book>.Failure($"Book with Id {bookId} was not found.");
+        }
+
+        if (!book.IsBorrowed)
+        {
+            return Result<Book>.Failure($"Book with Id {bookId} is already returned. You can not return a returned book.");
+        }
+
+        try
         {
             book.IsBorrowed = false;
-            return true;
+            _db.Entry(book).State = EntityState.Modified;
+            await _db.SaveChangesAsync();
         }
-        return false;
+        catch (Exception ex)
+        {
+            return Result<Book>.Failure($"Failed to borrow book: {ex.Message}");
+        }
+
+        return Result<Book>.Success(book);
     }
 }
 
