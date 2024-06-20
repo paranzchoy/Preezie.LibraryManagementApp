@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementAp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp.Client", "Preezie.LibraryManagementApp\Preezie.LibraryManagementApp.Client\Preezie.LibraryManagementApp.Client.csproj", "{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp.Models", "Preezie.LibraryManagementApp.Models\Preezie.LibraryManagementApp.Models.csproj", "{592CAF49-8457-45C6-BF8A-46E772EAE1AA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{592CAF49-8457-45C6-BF8A-46E772EAE1AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{592CAF49-8457-45C6-BF8A-46E772EAE1AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{592CAF49-8457-45C6-BF8A-46E772EAE1AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{592CAF49-8457-45C6-BF8A-46E772EAE1AA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
