@@ -16,16 +16,16 @@ public class Book
 
     [Required]
     [StringLength(255)]
-    public string Title { get; set; }
+    public string Title { get; set; } = string.Empty;
 
     [Required]
     [StringLength(255)]
-    public string Author { get; set; }
+    public string Author { get; set; } = string.Empty;
 
     [Required]
     [StringLength(255)]
-    public string ISBN { get; set; }
+    public string ISBN { get; set; } = string.Empty;
 
-    public bool IsBorrowed { get; set; }
+    public bool IsBorrowed { get; set; } = false;
 }
 
