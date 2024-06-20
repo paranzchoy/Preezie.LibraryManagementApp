@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34728.123
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp", "Preezie.LibraryManagementApp\Preezie.LibraryManagementApp\Preezie.LibraryManagementApp.csproj", "{B42FBBB7-C52B-43FC-ACB5-F5776A9091D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp.Client", "Preezie.LibraryManagementApp\Preezie.LibraryManagementApp.Client\Preezie.LibraryManagementApp.Client.csproj", "{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B42FBBB7-C52B-43FC-ACB5-F5776A9091D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B42FBBB7-C52B-43FC-ACB5-F5776A9091D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B42FBBB7-C52B-43FC-ACB5-F5776A9091D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B42FBBB7-C52B-43FC-ACB5-F5776A9091D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F32EBB9E-41D9-42C5-8DEA-FC9BED7CF8E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3F7CA1B8-EF13-4F7A-89D7-2F672FE416FD}
+	EndGlobalSection
+EndGlobal
