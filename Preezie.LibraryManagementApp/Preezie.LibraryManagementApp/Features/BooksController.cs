@@ -1,10 +1,12 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Preezie.LibraryManagementApp.Models;
 using Preezie.LibraryManagementApp.Services;
 
 namespace Preezie.LibraryManagementApp.Features;
 
+[Authorize]
 [Route("api/[controller]")]
 [ApiController]
 public class BooksController : ControllerBase

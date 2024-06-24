@@ -78,3 +78,5 @@ app.UseSwagger();
 app.UseSwaggerUI();
 
 app.Run();
+
+public partial class Program { }
