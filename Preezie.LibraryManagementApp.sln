@@ -11,7 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Preezie.LibraryManagementAp
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{11087038-5AC4-4373-9D76-8947EE218CA6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp.Shared", "Preezie.LibraryManagementApp.Shared\Preezie.LibraryManagementApp.Shared.csproj", "{C4BF308B-1157-476F-BCAC-D8B43C3F8CCC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Preezie.LibraryManagementApp.Shared", "Preezie.LibraryManagementApp.Shared\Preezie.LibraryManagementApp.Shared.csproj", "{C4BF308B-1157-476F-BCAC-D8B43C3F8CCC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{2A7F404C-F0C6-4F4F-8E78-A9BEC459A68E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{FEC8B8D8-CE88-4A33-8B85-45AFFC2E33DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Preezie.LibraryManagementApp.IntegrationTests.Api", "Preezie.LibraryManagementApp.IntegrationTests.Api\Preezie.LibraryManagementApp.IntegrationTests.Api.csproj", "{C38E58D1-265B-4356-A1FD-CFA1247FE370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -35,12 +41,17 @@ Global
 		{C4BF308B-1157-476F-BCAC-D8B43C3F8CCC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4BF308B-1157-476F-BCAC-D8B43C3F8CCC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4BF308B-1157-476F-BCAC-D8B43C3F8CCC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C38E58D1-265B-4356-A1FD-CFA1247FE370}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C38E58D1-265B-4356-A1FD-CFA1247FE370}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C38E58D1-265B-4356-A1FD-CFA1247FE370}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C38E58D1-265B-4356-A1FD-CFA1247FE370}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{592CAF49-8457-45C6-BF8A-46E772EAE1AA} = {11087038-5AC4-4373-9D76-8947EE218CA6}
+		{C38E58D1-265B-4356-A1FD-CFA1247FE370} = {FEC8B8D8-CE88-4A33-8B85-45AFFC2E33DD}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3F7CA1B8-EF13-4F7A-89D7-2F672FE416FD}

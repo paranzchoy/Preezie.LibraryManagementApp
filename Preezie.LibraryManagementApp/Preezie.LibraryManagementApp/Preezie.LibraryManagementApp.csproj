@@ -9,6 +9,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Preezie.LibraryManagementApp.Models\Preezie.LibraryManagementApp.Models.csproj" />
+    <ProjectReference Include="..\..\Preezie.LibraryManagementApp.Shared\Preezie.LibraryManagementApp.Shared.csproj" />
     <ProjectReference Include="..\Preezie.LibraryManagementApp.Client\Preezie.LibraryManagementApp.Client.csproj" />
     <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="8.0.4" />
     <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.4" />
